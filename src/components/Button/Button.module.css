@@ -1,0 +1,43 @@
+
+.button {
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button_white{
+    border: 1px solid black;
+    transition: color .3s ease-in-out,
+    background-color .3s ease-in-out;
+
+}
+
+.button_white:hover{
+    background-color: black;
+    color:white;
+}
+
+.button_black{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    transition: color .3s ease-in-out,
+    background-color .3s ease-in-out;
+
+}
+.button_black:hover{
+    background-color: white;
+    color:black;
+}
+
+.button_blue {
+    border: 1px solid rgba(25, 118, 210, 0.5);
+    color: #1976d2;
+    transition: color .3s ease-in-out,
+    background-color .3s ease-in-out;
+}
+  
+.button_blue:hover {
+    background-color: rgba(25, 118, 210, 0.15);
+}
